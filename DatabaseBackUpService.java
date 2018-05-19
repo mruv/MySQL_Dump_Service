@@ -55,9 +55,8 @@ public class DatabaseBackUpService {
 	private final static String BACK_UP_DIR     = "/BACKUPDIR/";
 	private final static String LOGS_DIR        = "/var/log/";
 	private final static String LOG_FILE_NAME   = "backup_service.log";
-	private final static String[] DATABASES     = {
-													"Database1", "Database2" // a list of all databases to backup
-												};
+	private final static String[] DATABASES     = {"Database1", "Database2"}; // a list of all databases to backup
+												
 
 	// logging
 	private final static Logger LOG             = Logger.getLogger(DatabaseBackUpService.class);
