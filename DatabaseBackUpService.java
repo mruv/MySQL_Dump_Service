@@ -65,7 +65,7 @@ public class DatabaseBackUpService {
 	private final static String MYSQL_DUMP_BIN  = "/usr/bin/mysqldump";
 
 	// connection
-	private final static String USER            = "BACKUPUSER"; // mysql user password
+	private final static String USER            = "BACKUPUSER"; // mysql user name
 	private static String PWD;
 
 	private final static String STRING          = "BACKUPUSERPASSWORD"; // mysql user password
